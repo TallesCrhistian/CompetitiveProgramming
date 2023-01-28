@@ -12,8 +12,7 @@ namespace CP_Training.UnitTests
             _camelCase4 = new CamelCase4();
         }
 
-
-        [TestCase("S;M;plasticCup() ", "plastic cup")]        
+        [TestCase("S;M;plasticCup() ", "plastic cup")]
         [TestCase("C;V;mobile phone ", "mobilePhone")]
         [TestCase("C;C;coffee machine ", "CoffeeMachine")]
         [TestCase("S;C;LargeSoftwareBook ", "large software book")]

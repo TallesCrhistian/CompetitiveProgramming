@@ -6,7 +6,7 @@ namespace CP_Training.UnitTests.Week2Tests
 {
     public class CountingSort1Test
     {
-        CountingSort1 _countingSort1;
+        private CountingSort1 _countingSort1;
 
         [SetUp]
         public void SetUp()

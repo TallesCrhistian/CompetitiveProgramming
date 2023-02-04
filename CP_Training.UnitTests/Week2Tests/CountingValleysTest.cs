@@ -5,7 +5,7 @@ namespace CP_Training.UnitTests.Week2Tests
 {
     public class CountingValleysTest
     {
-        CountingValleys _countingValleys;
+        private CountingValleys _countingValleys;
 
         [SetUp]
         public void SetUp()

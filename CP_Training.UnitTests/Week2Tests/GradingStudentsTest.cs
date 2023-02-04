@@ -15,12 +15,12 @@ namespace CP_Training.UnitTests.Week2Tests
         }
 
         [Test]
-        public void GradingStudents_RateGrade_RoundNote() 
+        public void GradingStudents_RateGrade_RoundNote()
         {
             List<int> grades = new List<int>() { 84, 29, 57 };
             List<int> expectedResult = new List<int>() { 85, 29, 57 };
 
-           List<int> result =  _gradingStudents.gradingStudents(grades);
+            List<int> result = _gradingStudents.gradingStudents(grades);
 
             CollectionAssert.AreEqual(result, expectedResult);
         }

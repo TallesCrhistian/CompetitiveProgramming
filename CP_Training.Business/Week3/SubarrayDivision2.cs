@@ -26,5 +26,7 @@ namespace CP_Training.Business.Week3
 
             return ways;
         }
+
     }
 }
+

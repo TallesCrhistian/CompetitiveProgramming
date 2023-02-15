@@ -27,6 +27,7 @@ namespace CP_Training.UnitTests.Week3Tests
             Assert.That(result == expectedResult);
         }
 
+        [Test]
         public void TwoArrays_PermutationTwoArrays_ReturnNO()
         {
             List<int> A = new List<int> { 1, 2, 2, 1 };
